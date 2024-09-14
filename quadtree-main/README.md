@@ -33,40 +33,6 @@ This project implements a quadtree-based encoding and decoding mechanism for rep
 - **`Leaf`**: Represents a solid block (black or white) in the quadtree.
 - **`GreyNode`**: Represents a mixed quadrant with four child nodes.
 
-## Examples
-
-### Decoding Examples
-
-#### Example 1
-
-**Quadtree String**: `GGGBWBWWGBBBWWGWGWBWBWGBBWBGGBWBWWGBWBWWGWGWBWBWGWBWB`
-
-**Decoded Grid**:
-
-X……X
-.X….X.
-..XXXX..
-…XX…
-…XX…
-..X..X..
-.X….X.
-X……X
-
-#### Example 2
-
-**Quadtree String**: `GGBGBBBWGWBBWBGBGBBBWGWBBWBGBGWBBWGWBBBGWWBBGBGWBBWGWWBBB`
-
-**Decoded Grid**:
-
-XXXXXXXX
-XX.XXX.X
-XX.XXX.X
-XX.XXX.X
-XX.XXX.X
-XX.XXX.X
-XX…..X
-XXXXXXXX
-
 ## Running the Code
 
 To test the decoding and quadtree-building functionalities, you can directly run the code. Ensure that you have the necessary Python environment set up and execute the script to see the results.
