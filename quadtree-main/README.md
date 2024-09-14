@@ -37,10 +37,6 @@ This project implements a quadtree-based encoding and decoding mechanism for rep
 
 To test the decoding and quadtree-building functionalities, you can directly run the code. Ensure that you have the necessary Python environment set up and execute the script to see the results.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 This project was developed as part of a CS 211 course assignment. Special thanks to the course instructor, Michal Young, for their guidance and support.
