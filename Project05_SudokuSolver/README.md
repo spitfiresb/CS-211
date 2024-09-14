@@ -1,13 +1,40 @@
-# Sudoku
+# Sudoku Solver
 
-A solver for the classic puzzle, as a programming 
-project for CIS 211 at University of Oregon. 
+This is a Python-based Sudoku solver that can solve a Sudoku puzzle provided via a file. It includes an optional graphical display to visualize the board before and after solving the puzzle.
 
-The project will have two phases.  In the first phase 
-we implement constraint propagation to solve simple 
-puzzles.  In the second phase we will add back-tracking
-search to solve harder puzzles. 
+## Table of Contents
 
-We will use a model-view-controller organization to 
-associate a graphical display with the game. 
+- [Description](#description)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Format](#file-format)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
 
+## Description
+
+The Sudoku Solver reads a puzzle from a file, checks its consistency, and solves it using a backtracking algorithm. The solver also provides an optional graphical interface for visualizing the puzzle during and after solving.
+
+## Features
+
+- Solves Sudoku puzzles via a command-line interface.
+- Optional graphical display of the puzzle before and after solving.
+- Validates puzzle consistency before attempting to solve it.
+- Reads the puzzle from a file in a simple format.
+  
+## Requirements
+
+- Python 3.x
+- `argparse` for command-line argument parsing
+- `sdk_reader` for reading puzzle input
+- `sdk_display` for graphical display (optional)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/sudoku-solver.git
+   cd sudoku-solver
