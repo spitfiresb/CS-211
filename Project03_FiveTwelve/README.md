@@ -92,8 +92,6 @@ Most changes to game logic in model.py should also be possible without changing 
 
 This independence is the point of MVC organization.
 
-## What students must program
+## What I Programmed
 
-Although there is a lot of code to add to the skeleton, a fair amount of it is given to
-you in [the HOWTO document](doc/HOWTO.md).  The main thing you have to design
-on your own are the loops that move each tile in turn, in the correct order. 
+While the project came with a fair amount of skeleton code, I was responsible for key elements of the game logic. The most critical part was designing the loops that move each tile in the correct order and handle merging behavior. These loops ensure the tiles move according to the game rules, whether it’s a right, left, up, or down movement.
